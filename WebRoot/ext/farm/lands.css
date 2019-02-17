@@ -1,0 +1,52 @@
+	.ordinarylands,.blacklands,.redlands,.goldlands{
+    	position:relative;
+    }
+    .blacklands{
+    	left:65px;
+    	top:-25px;
+    }
+    .redlands{
+    	left:130px;
+    	top:-50px;
+    }
+    .goldlands{
+    	left:195px;
+    	top:-75px;
+    }
+    .goldland{
+    	width:80px;
+    	height:80px;
+    	position:absolute;
+    	background:url('<%=basePath%>images/goldland.png');
+		background-size:80px 80px;
+		background-repeat:no-repeat;
+    }
+    .redland{
+    	width:80px;
+    	height:80px;
+    	position:absolute;
+    	background:url('<%=basePath%>images/redland.png');
+		background-size:80px 80px;
+		background-repeat:no-repeat;
+    }
+    .blackland{
+    	width:80px;
+    	height:80px;
+    	position:absolute;
+    	background:url('<%=basePath%>images/blackland.png');
+		background-size:80px 80px;
+		background-repeat:no-repeat;
+    }
+    .ordinaryland{
+    	width:80px;
+    	height:80px;
+    	position:absolute;
+    	background:url('<%=basePath%>images/ordinaryland.png');
+		background-size:80px 80px;
+		background-repeat:no-repeat;
+    }
+    #myLands{
+    	position:relative;
+    	top:50px;
+    	left:20%;
+    }
